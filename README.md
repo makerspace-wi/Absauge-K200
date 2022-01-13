@@ -10,7 +10,9 @@
 </ul>
 
 [Link zu FELDER](https://www.felder-group.com/de-at/produkte/absauggeraete-entstauber-c1963/reinluftabsauggeraet-entstaubungsanlage-performance-line-p144306)
+<br><br>
 Seit Ende 2021 is der Makerspace Wiesbaden e.V. stolzer Besitzer einer professionellen Entstaubungsanlage RL 200 von der Firma Felder.
 <br> 
-Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lottogeldern finanziert und die notwendigen Rohre wurden uns von XXX spendiert.
-<br>
+Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lottogeldern finanziert und die notwendigen Anschlussrohre zu den 5 Maschinen wurden uns von XXX spendiert.
+<br><br>
+Damit wurde das Ende unserer alten, kleinen Absauge mit BlastGate Steuerung eingeleitet.
