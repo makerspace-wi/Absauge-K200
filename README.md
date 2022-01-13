@@ -9,4 +9,4 @@
 <li>Reststaubgehalt: < 0,1 mg/m3</li>
 </ul>
 
-Link zu FELDER: https://www.felder-group.com/de-at/produkte/absauggeraete-entstauber-c1963/reinluftabsauggeraet-entstaubungsanlage-performance-line-p144306
+[Link zu FELDER](https://www.felder-group.com/de-at/produkte/absauggeraete-entstauber-c1963/reinluftabsauggeraet-entstaubungsanlage-performance-line-p144306)
