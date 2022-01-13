@@ -19,7 +19,8 @@ Damit wurde das Ende unserer alten, kleinen Absauge mit BlastGate Steuerung eing
 <br>
 Die fast 400kg schwere Absauge wurde im kleinen Abstellraum unter der Treppe platziert, dazu musste eine Ständerwand aufgebrochen werden.
 
-<img width="400" alt="Box_1" src="https://user-images.githubusercontent.com/42463588/149338032-6201faf3-45aa-4256-8af1-6e30a7d6d1b6.jpg">
+<img width="400" src="https://user-images.githubusercontent.com/42463588/149338032-6201faf3-45aa-4256-8af1-6e30a7d6d1b6.jpg">
 
 Von der Absauge gehen Rohre - abgehängt von der Decke - an die Formatkreissäge, an den Hobel, an die Bandsäge, an den Schleifer und an die Kappsäge.
 
+<img width="400" src="https://user-images.githubusercontent.com/42463588/149339016-24f99a33-7140-4084-9818-c4530916bdf3.jpg">
