@@ -18,3 +18,5 @@ Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lottogeldern finanz
 Damit wurde das Ende unserer alten, kleinen Absauge mit BlastGate Steuerung eingeläutet.
 <br>
 Die fast 400kg schwere Absauge wurde im kleinen Abstellraum unter der Treppe platziert, dazu musste eine Ständerwand aufgebrochen werden.
+
+![IMG_9446](https://user-images.githubusercontent.com/42463588/149338032-6201faf3-45aa-4256-8af1-6e30a7d6d1b6.jpg)
