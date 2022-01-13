@@ -24,3 +24,5 @@ Die fast 400kg schwere Absauge wurde im kleinen Abstellraum unter der Treppe pla
 Von der Absauge gehen Rohre - abgehängt von der Decke - an die Formatkreissäge, an den Hobel, an die Bandsäge, an den Schleifer und an die Kappsäge.
 
 <img width="400" src="https://user-images.githubusercontent.com/42463588/149339016-24f99a33-7140-4084-9818-c4530916bdf3.jpg">
+<br>
+Jeder Maschinenanschluss hat einen eignen elektropneumatischen Schieber, der von der jeweiligen Maschinensteuerung geöffnet wird, sobald die Maschine anläuft.
