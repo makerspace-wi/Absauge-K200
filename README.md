@@ -15,4 +15,6 @@ Seit Ende 2021 is der Makerspace Wiesbaden e.V. stolzer Besitzer einer professio
 <br> 
 Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lottogeldern finanziert und die notwendigen Anschlussrohre zu den 5 Maschinen wurden uns von XXX spendiert.
 <br><br>
-Damit wurde das Ende unserer alten, kleinen Absauge mit BlastGate Steuerung eingeleitet.
+Damit wurde das Ende unserer alten, kleinen Absauge mit BlastGate Steuerung eingeläutet.
+<br>
+Die fast 400kg schwere Absauge wurde im kleinen Abstellraum unter der Treppe platziert, dazu musste eine Ständerwand aufgebrochen werden.
