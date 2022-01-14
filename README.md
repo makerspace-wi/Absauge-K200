@@ -13,7 +13,7 @@
 <br><br>
 Seit Ende 2021 is der Makerspace Wiesbaden e.V. stolzer Besitzer einer professionellen Entstaubungsanlage RL 200 von der Firma Felder.
 <br> 
-Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lottogeldern finanziert und die notwendigen Anschlussrohre zu den 5 Maschinen wurden uns von XXX spendiert.
+Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lotteriegeldern finanziert und die notwendigen Anschlussrohre zu den 5 Maschinen von ['Anstiftung'](https://anstiftung.de/).
 <br><br>
 Damit wurde das Ende unserer alten, kleinen Absauge mit BlastGate Steuerung eingeläutet.
 <br>
@@ -28,4 +28,3 @@ Von der Absauge gehen Rohre - abgehängt von der Decke - an die Formatkreissäge
 Jeder Maschinenanschluss hat einen eignen elektropneumatischen Schieber, der von der jeweiligen Maschinensteuerung geöffnet wird, sobald die Maschine anläuft und um ca. 10 Sekunden verzögert schließt, wenn die Maschine ausgeschaltet wird.
 
 Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterfläche benötigt wird, kommt von einem kleinen Kompressor, der neben der Absauge steht.
-
