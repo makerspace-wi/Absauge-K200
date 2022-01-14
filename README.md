@@ -41,7 +41,7 @@ Im folgenden die grobe Funktionsbeschreibung - dazu bitte das
 - zu diesem Zeitpunkt wird auch der erste Eintrag in das 'Machine Log' geschrieben.
 - alle absaugberechtigten Maschinen haben einen Stromsensor, der dem Systemrechner meldet, sobald die Maschine angelaufen ist.
 - dies löst einen Eintrag in der Betriebsstunden Datenbank aus und die Maschinenvariable 'operating' auf dem Systemrechner wird auf '1' gesetzt - desweiteren wird das elektropneumatische Ventil für die Maschine bestromt und gibt das Rohr zur Absauge frei.
-- auf dem Systemrechner existiert ein 'event' ausgelöstes Script, dass bei jeder Änderung der 5 'operating' Variablen (MA05 - MA09) anläuft und eine weitere Variable 'any_machine_on' auf 'true' setzt, wenn eine oder mehrere Maschinen laufen. 
+- auf dem Systemrechner sorgt ein 'event' ausgelöstes Script dafür, dass bei jeder Änderung der 5 'operating' Variablen (MA05 - MA09) eine weitere Variable 'any_machine_on' auf 'true' gesetzt wird, wenn eine oder mehrere Maschinen laufen. 
 - ändert sich 'any_machine_on' von 'false' auf 'true' sendet der Systemrechner das Einschaltsignal für unsere Absauge, an deren Controller.
-- sind alle Maschinen ausgeschaltet, sorgt das voher erwähnte Script dafür, dass die Varialble 'any_machine_on' auf 'false' geht und damit  eine Nachlaufzeit von momentan 15 Sekunden gestartet wird, die - falls in der Zeit nicht wieder eine Maschine eingeschaltet wurde - dann den Befehl zum Ausschalten der Absauge sendet.
+- sind alle Maschinen ausgeschaltet, sorgt das voher erwähnte Script dafür, dass die Varialble 'any_machine_on' auf 'false' geht und die Nachlaufzeit von momentan 15 Sekunden gestartet wird, die - falls in der Zeit nicht wieder eine Maschine eingeschaltet wurde - dann den Befehl zum Ausschalten an den Controller der Absauge sendet.
 - die Maschinencontroller schließen die pneumatische Klappe ca. 10 Sekunden nach dem Ausschalten der Maschine.
