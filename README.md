@@ -32,5 +32,15 @@ Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterf
 
 ![Absauge Schema](https://user-images.githubusercontent.com/42463588/149550942-25aaf54e-17d3-4d47-8f5c-0e50b0c29078.png)
 
-
-[abc](doc/Absauge%20Schema.pdf)
+Im folgenden die grobe Funktionsbeschreibung - dazu bitte das 
+[Funktionsschema](doc/Absauge%20Schema.pdf) öffnen
+# Ablauf Einschaltvorgang
+- Mitglied möchte sägen und hält RFID-Chip an das Lesegerät.
+- wenn die Chip-Nummer gelesen wurde, wird diese an den Systemrechner gesendet, um zu prüfen, ob freigeschaltet werden kann.
+- ist die Prüfung positiv sendet der Systemrechner das Freischaltsignal und der Strom für die entsprechende Maschine wird für X Minuten eingeschaltet.
+- zu diesem Zeitpunkt wird auch der erste Eintrag in das 'Machine Log' geschrieben.
+- alle absaugberechtigten Maschinen haben einen Stromsensor, der dem Systemrechner meldet, sobald die Maschine eingeschaltet wurde.
+- dies löst einen Eintrag in der Betriebsstunden Datenbank aus und die Maschinenvariable 'operating' auf dem Systemrechner wird auf '1' gesetzt - desweiteren wird das elektropneumatische Ventil für die Maschine bestromt und gibt das Rohr zur Absauge frei.
+- auf dem Systemrechner existiert ein 'event' ausgelöstes Script, dass bei jeder Änderung der 5 'operating' Variablen (MA05 - MA09) anläuft und eine weitere Variable 'any_machine_on' auf 'tue' setzt, wenn eine oder mehrere Maschinen laufen. 
+- ändert sich 'any_machine_on' von 'false' auf 'true' sendet der Systemrechner das Einschaltsignal für unsere Absauge, an deren Controller.
+- sind alle Maschinen ausgeschaltet, sorgt das voher erwähnte Script dafür, dass die Varialble 'any_machine_on' auf 'false' geht und damit  eine Nachlaufzeit von momentan 15 Sekunden gestartet wird, die - falls in der Zeit nicht wieder eine Maschine eingeschaltet wurde - dann den Befehl zum Ausschalten der Absauge sendet.
