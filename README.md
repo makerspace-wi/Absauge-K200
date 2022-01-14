@@ -28,3 +28,8 @@ Von der Absauge gehen Rohre - abgehängt von der Decke - an die Formatkreissäge
 Jeder Maschinenanschluss hat einen eignen elektropneumatischen Schieber, der von der jeweiligen Maschinensteuerung geöffnet wird, sobald die Maschine anläuft und um ca. 10 Sekunden verzögert schließt, wenn die Maschine ausgeschaltet wird.
 
 Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterfläche benötigt wird, kommt von einem kleinen Kompressor, der neben der Absauge steht.
+
+
+![Absauge Schema](https://user-images.githubusercontent.com/42463588/149550942-25aaf54e-17d3-4d47-8f5c-0e50b0c29078.png)
+
+[Absauge Schema.pdf](https://github.com/makerspace-wi/Absauge-RL200/files/7871807/Absauge.Schema.pdf)
