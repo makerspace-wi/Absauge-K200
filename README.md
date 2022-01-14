@@ -32,4 +32,4 @@ Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterf
 
 ![Absauge Schema](https://user-images.githubusercontent.com/42463588/149550942-25aaf54e-17d3-4d47-8f5c-0e50b0c29078.png)
 
-[Absauge Schema.pdf](https://github.com/makerspace-wi/Absauge-RL200/files/7871807/Absauge.Schema.pdf)
+https://github.com/makerspace-wi/Absauge-RL200/blob/main/doc/Absauge%20Schema.pdf
