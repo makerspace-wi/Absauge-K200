@@ -26,9 +26,9 @@ Von der Absauge gehen Rohre (200mm, 160mm & 100mm) - abgehängt von der Decke - 
 
 <img width="300" src="https://user-images.githubusercontent.com/42463588/149339016-24f99a33-7140-4084-9818-c4530916bdf3.jpg"><img width="290" src="https://user-images.githubusercontent.com/42463588/149620149-f1ec225c-32f6-4462-bbde-fdf8c8975d15.jpg">
 <br>
-Jeder Maschinenanschluss hat einen eignen elektropneumatischen Schieber, der von der jeweiligen Maschinensteuerung geöffnet wird, sobald die Maschine anläuft und um ca. 10 Sekunden verzögert wieder schließt, wenn die Maschine ausgeschaltet wird.
+Jeder Maschinenanschluss hat einen eignen elektropneumatischen Schieber, der von der jeweiligen Maschinensteuerung geöffnet wird, sobald die Maschine anläuft und um ca. 10 Sekunden verzögert wieder schließt, wenn die Maschine angehalten wird.
 
-Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterfläche benötigt wird, kommt von einem kleinen Kompressor, der neben der Absauge steht.
+Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterfläche benötigt wird, kommt von einem kleinen, schallgedämpften Kompressor, der neben der Absauge steht.
 
 
 ![Absauge Schema](https://user-images.githubusercontent.com/42463588/149550942-25aaf54e-17d3-4d47-8f5c-0e50b0c29078.png)
@@ -37,12 +37,14 @@ Im folgenden die grobe Funktionsbeschreibung - dazu bitte das
 [Funktionsschema](doc/Absauge%20Schema.pdf) öffnen
 # Ablauf Einschaltvorgang
 - RFID-Chip an das entsprechende Lesegerät gehalten.
-- wenn die Chip-Nummer gelesen wurde, wird diese an den Systemrechner gesendet und geprüft, ob freigeschaltet werden kann.
-- ist die Prüfung positiv sendet der Systemrechner das Freischaltsignal und der Strom für die entsprechende Maschine wird für X Minuten eingeschaltet.
+- wenn die Chip-Nummer gelesen wurde, wird diese an den Systemrechner gesendet und dort eingehend geprüft, ob freigeschaltet werden kann.
+- ist die Prüfung positiv sendet der Systemrechner das Freischaltsignal und der Strom für die entsprechende Maschine wird für z.B. 60 Minuten eingeschaltet.
 - zu diesem Zeitpunkt wird auch der erste Eintrag in das 'Machine Log' geschrieben.
 - alle absaugberechtigten Maschinen haben einen Stromsensor, der dem Systemrechner meldet, sobald die Maschine angelaufen ist.
 - dies löst einen Eintrag in der Betriebsstunden Datenbank aus und die Maschinenvariable 'operating' auf dem Systemrechner wird auf '1' gesetzt - desweiteren wird das elektropneumatische Ventil für die Maschine bestromt und gibt das Rohr zur Absauge frei.
 - auf dem Systemrechner sorgt ein 'event' ausgelöstes Script dafür, dass bei jeder Änderung der 5 'operating' Variablen (MA05 - MA09) eine weitere Variable 'any_machine_on' auf 'true' gesetzt wird, wenn eine oder mehrere Maschinen laufen. 
 - ändert sich 'any_machine_on' von 'false' auf 'true' sendet der Systemrechner das Einschaltsignal für unsere Absauge, an deren Controller.
-- sind alle Maschinen ausgeschaltet, sorgt das voher erwähnte Script dafür, dass die Varialble 'any_machine_on' auf 'false' geht und die Nachlaufzeit von momentan 15 Sekunden gestartet wird, die - falls in der Zeit nicht wieder eine Maschine eingeschaltet wurde - dann den Befehl zum Ausschalten an den Controller der Absauge sendet.
+- sind alle Maschinen ausgeschaltet, sorgt das voher erwähnte Script dafür, dass die Varialble 'any_machine_on' auf 'false' geht und eine Nachlaufzeit von momentan 15 Sekunden gestartet wird, die - falls in der Zeit nicht wieder eine Maschine eingeschaltet wurde - dann den Befehl zum Ausschalten an den Controller der Absauge sendet.
 - die Maschinencontroller schließen die pneumatische Klappe ca. 10 Sekunden nach dem Abschalten der Maschine.
+
+das Blockschaltbild des Controllers findest du [hier](doc/Controller_Absaugung.pdf)
