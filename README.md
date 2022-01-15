@@ -47,4 +47,4 @@ Im folgenden die grobe Funktionsbeschreibung - dazu bitte das
 - sind alle Maschinen ausgeschaltet, sorgt das voher erwähnte Script dafür, dass die Varialble 'any_machine_on' auf 'false' geht und eine Nachlaufzeit von momentan 15 Sekunden gestartet wird, die - falls in der Zeit nicht wieder eine Maschine eingeschaltet wurde - dann den Befehl zum Ausschalten an den Controller der Absauge sendet.
 - die Maschinencontroller schließen die pneumatische Klappe ca. 10 Sekunden nach dem Abschalten der Maschine.
 
-das Blockschaltbild des Controllers findest du [hier](doc/Controller_Absaugung.pdf)
+Das Blockschaltbild des Controllers findest du [hier](doc/Controller_Absaugung.pdf)
