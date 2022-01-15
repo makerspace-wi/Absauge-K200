@@ -50,4 +50,4 @@ Im folgenden die grobe Funktionsbeschreibung - dazu bitte das
 Das Blockschaltbild des Controllers findest du [hier](doc/Controller_Absaugung.pdf)
 
 Der 2. Schaltkanal ist für den Luftkompressor. Dieser wird bestromt, sobald das erste Mitglied den Makerspace betritt. Dann läuft der Kompressor an und schaltet selbstständig ab, wenn 8 bar Druck erreicht sind.
-<br><br>Der Kompressor wird wieder vom Stromnetz getrennt, sobald das letzte Mitglied den Makerspace verlassen hat - deshalb hier noch einmal der Aufruf an ALLE: <b>Bitte das Ausloggen nicht vergessen!</b>
+<br><br>Der Kompressor wird wieder vom Stromnetz getrennt, sobald das letzte Mitglied den Makerspace verlassen hat - deshalb hier noch einmal der Aufruf an ALLE: <br><br><b>Bitte das Ausloggen nicht vergessen!</b>
