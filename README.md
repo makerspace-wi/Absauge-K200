@@ -57,11 +57,11 @@ Der 2. Schaltkanal ist für den Luftkompressor. Dieser wird bestromt, sobald das
 
 Im folgenden eine kurze Erklärung der verschiedenen Diagnose LEDs auf dem Prozessor Board.
 
-![IMG_9647](https://user-images.githubusercontent.com/42463588/150525343-ad6e65de-279d-4c93-b820-ace902bc7f47.JPG)
+![IMG_9647 2](https://user-images.githubusercontent.com/42463588/150528933-095ea0e8-ef60-49d0-86c3-3c20022cdb7d.JPG)
 * Power LED - leuchtet dauerhaft wenn die Controller Box bestromt ist
-* System Connect LED (D2 - rot) leuchtet wenn versucht wird eine Verbindung mit dem Sysmcon System aufzubauen und erlischt, wenn erfolgreich verbunden wurde.
+* System Connect LED (D1 - rot) leuchtet wenn versucht wird eine Verbindung mit dem Sysmcon System aufzubauen und erlischt, wenn erfolgreich verbunden wurde.
 Die LED blinkt, wenn nach 2 Minuten keine Verbindung aufgenommen werden konnte.
-* RSSI LED (D1 - rot) die Helligkeit dieser LED signalisiert die Signalstärke des zuletzt übertragenen Paketes.
+* RSSI LED (D2 - rot) die Helligkeit dieser LED signalisiert die Signalstärke des zuletzt übertragenen Paketes.
 * Associate LED (D3 - grün) siehe folgende Liste
 ![Bildschirmfoto 2022-01-21 um 11 54 37](https://user-images.githubusercontent.com/42463588/150526423-c17f7973-14b3-4b70-ba1b-0bdc9e80765a.png)
 Normales Blinken signalisiert die korrekte Einbindung in das Zigbee Netzwerk.
