@@ -24,10 +24,8 @@ Die fast 400kg schwere Absauge wurde im kleinen Abstellraum unter der Treppe pla
 
 Von der Absauge gehen Rohre (200mm, 160mm & 100mm) - abgehängt von der Decke - an die Formatkreissäge, den Hobel, die Bandsäge, der Schleifmaschine und die Kappsäge.
 
-<img width="300" src="https://user-images.githubusercontent.com/42463588/149339016-24f99a33-7140-4084-9818-c4530916bdf3.jpg">
+<img width="300" src="https://user-images.githubusercontent.com/42463588/149339016-24f99a33-7140-4084-9818-c4530916bdf3.jpg"><img width="300" src="https://user-images.githubusercontent.com/42463588/150532144-74affb5c-32f1-4be5-aa9a-c06e933944e8.JPG">
 <br>
-<img width="300" src="https://user-images.githubusercontent.com/42463588/150532144-74affb5c-32f1-4be5-aa9a-c06e933944e8.JPG">
-
 Jeder Maschinenanschluss hat einen eignen elektropneumatischen Schieber, der von der jeweiligen Maschinensteuerung geöffnet wird, sobald die Maschine anläuft und um ca. 10 Sekunden verzögert wieder schließt, wenn die Maschine angehalten wird.
 
 Die benötigte Pressluft, die auch für die automatisierte Reinigung der Filterfläche benötigt wird, kommt von einem kleinen, schallgedämpften Kompressor, der neben der Absauge steht.
