@@ -1,7 +1,7 @@
 # Absauge-RL 200
 Seit Ende 2021 is der Makerspace Wiesbaden e.V. stolzer Besitzer einer professionellen Entstaubungsanlage RL 200 von der Firma Felder.
 <br> 
-Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lotteriegeldern finanziert und die notwendigen Anschlussrohre zu den 5 Maschinen von ['Anstiftung'](https://anstiftung.de/).
+Die Maschine wurde vom hessischen Wirtschaftsministerium aus Lotteriegeldern finanziert und die notwendigen Anschlussrohre zu den 5 Maschinen von der ['Anstiftung'](https://anstiftung.de/).
 <br><br>
 ![3013-reinluftabsauggeraet-rl200-felder-feldergroup_1_-_media--3875e560--query](https://user-images.githubusercontent.com/42463588/149331293-7ce102f2-bbdc-48d4-a309-3f767487afd5.png)
 <ul>
