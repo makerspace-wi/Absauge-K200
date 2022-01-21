@@ -53,3 +53,15 @@ Der 2. Schaltkanal ist für den Luftkompressor. Dieser wird bestromt, sobald das
 <br><br>Der Kompressor wird wieder vom Stromnetz getrennt, sobald das letzte Mitglied den Makerspace verlassen hat - deshalb hier noch einmal der Aufruf an ALLE: <br><br><b>Bitte das Ausloggen nicht vergessen!</b>
 <br><br>
 ### Controller Box
+![IMG_9646](https://user-images.githubusercontent.com/42463588/150523746-c0f4072c-94b8-4402-bbb1-70139d016218.JPG)
+
+Im folgenden eine kurze Erklärung der verschiedenen Diagnose LEDs auf dem Prozessor Board.
+
+![IMG_9647](https://user-images.githubusercontent.com/42463588/150525343-ad6e65de-279d-4c93-b820-ace902bc7f47.JPG)
+* Power LED - leuchtet dauerhaft wenn die Controller Box bestromt ist
+* System Connect LED (D2 - rot) leuchtet wenn versucht wird eine Verbindung mit dem Sysmcon System aufzubauen und erlischt, wenn erfolgreich verbunden wurde.
+Die LED blinkt, wenn nach 2 Minuten keine Verbindung aufgenommen werden konnte.
+* RSSI LED (D1 - rot) die Helligkeit dieser LED signalisiert die Signalstärke des zuletzt übertragenen Paketes.
+* Associate LED (D3 - grün) siehe folgende Liste
+![Bildschirmfoto 2022-01-21 um 11 54 37](https://user-images.githubusercontent.com/42463588/150526423-c17f7973-14b3-4b70-ba1b-0bdc9e80765a.png)
+Normales Blinken signalisiert die korrekte Einbindung in das Zigbee Netzwerk.
